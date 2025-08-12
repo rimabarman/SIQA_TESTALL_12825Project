@@ -44,6 +44,18 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
+- serviceName: project.siqa_testall_12825.integrations:SIQA_E2E_Mon_Test
+  packages:
+  - name: SIQA_TESTALL_12825Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: pub.string:bytesToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
 - serviceName: project.siqa_testall_12825.integrations:deepclonetest
   packages:
   - name: SIQA_TESTALL_12825Project
@@ -57,10 +69,6 @@ services:
   - name: WmPublic
     version: 11.1.0.0.2064
 - serviceName: pub.utils:deepClone
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2064
-- serviceName: pub.string:bytesToString
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
