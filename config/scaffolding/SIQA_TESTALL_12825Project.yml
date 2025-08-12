@@ -32,6 +32,18 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
+- serviceName: project.siqa_testall_12825.integrations:EdgeFlowserviceWithExistingEdS
+  packages:
+  - name: SIQA_TESTALL_12825Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
 - serviceName: project.siqa_testall_12825.integrations:deepclonetest
   packages:
   - name: SIQA_TESTALL_12825Project
